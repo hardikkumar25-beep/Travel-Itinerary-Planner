@@ -1,5 +1,5 @@
 import streamlit as st
-from ta import Itinerary, city_info, Hotels, summarize, add, sub, multiply, divide, calculator 
+from travel_agent import Itinerary, city_info, Hotels, summarize, add, sub, multiply, divide, calculator 
 from pprint import pprint
 
 st.set_page_config(page_title="Travel Agent", page_icon="🗺️", layout="wide")
@@ -52,5 +52,6 @@ if st.button("Calculate"):
             st.markdown(result.content if hasattr(result, "content") else str(result))
         except Exception as e:
             st.error(f"⚠️ Something went wrong: {e}")
+
 
 
