@@ -1,0 +1,14 @@
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langgraph
+pydantic
+python-dotenv
+openai
+tqdm
+requests
+wikipedia
+streamlit
+nest_asyncio
+pprintpp
