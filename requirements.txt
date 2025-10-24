@@ -11,4 +11,5 @@ requests
 wikipedia
 streamlit
 nest_asyncio
+pyowm
 pprintpp
